@@ -1,8 +1,8 @@
 import React from 'react'
-import Input from './input/index.jsx'
-import './form.css'
+import {Input} from '../Input/Input'
+import './Form.css'
 
-const Form = () => {
+export const Form = () => {
     return (
         <div className="form">
             <h3 className="form_title">Reg form</h3>
@@ -28,5 +28,3 @@ const Form = () => {
         </div>
     )
 }
-
-export default Form

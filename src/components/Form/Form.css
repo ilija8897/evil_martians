@@ -1,3 +1,7 @@
+:root {
+   --main-form-color: #686363;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -6,7 +10,7 @@
     align-items: center;
     height: 130px;
     justify-content: space-around;
-    border: 2px solid #686363;
+    border: 2px solid var(--main-form-color);
     padding: 40px;
     cursor: pointer;
 }
@@ -21,9 +25,5 @@
 .form_title {
     margin: 0 auto 20px;
     font-size: 24px;
-    color: #686363;
-}
-
-.btn_reg {
-    color: blue;
+    color: var(--main-form-color);
 }
