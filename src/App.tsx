@@ -1,12 +1,13 @@
 import React from 'react';
+import {Form} from './components/Form/Form'
+import {Header} from './components/Header/Header'
 import './App.css';
 
 export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Главная
-      </header>
-    </div>
+      <>        
+        <Header />
+        <Form />
+      </>  
   );
 }
